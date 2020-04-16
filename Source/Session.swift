@@ -196,7 +196,7 @@ open class Session {
     }
 
     deinit {
-        finishRequestsForDeinit()
+        //finishRequestsForDeinit()
         session.invalidateAndCancel()
     }
 
